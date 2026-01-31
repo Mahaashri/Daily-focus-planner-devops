@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    transition: 0.3s;
+}
+
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.light {
+    background: #f5f5f5;
+    color: black;
+}
+
+.form input, select, button {
+    padding: 8px;
+    margin: 5px;
+}
+
+.task {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.High { background: #2ecc71; }
+.Medium { background: #f1c40f; }
+.Low { background: #e74c3c; }
+.block.Focus { background: #2ecc71; }
+.block.Break { background: #3498db; }
+
+.block {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    background: #3498db;
+}
+

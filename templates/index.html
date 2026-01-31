@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Focus Planner</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="dark">
+
+<h1>Daily Focus and Energy Planner</h1>
+<button onclick="toggleTheme()">Toggle Theme</button>
+
+<h2>To-Do List</h2>
+<div class="form">
+    <input id="task" placeholder="Task name">
+    <select id="energy">
+        <option>High</option>
+        <option>Medium</option>
+        <option>Low</option>
+    </select>
+    <button onclick="addTask()">Add Task</button>
+</div>
+
+<div id="tasks"></div>
+
+<hr>
+
+<h2>Focus Plan</h2>
+<button onclick="generatePlan()">Generate Focus Plan</button>
+
+<h3>Productivity Score: <span id="score">--</span>%</h3>
+<div id="timeline"></div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
+
